@@ -1,0 +1,72 @@
+.container {
+    background-color: white;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+div {
+    display: block;
+}
+
+.item {
+    flex-basis: 33%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    
+}
+
+.circle {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.pink {
+    background-color: pink;
+}
+
